@@ -4,7 +4,8 @@ packages:
   - .
 
 extra-deps:
-  - kanji-3.3.0
+  - git: https://github.com/fosskers/kanji
+    commit: b6408149ac83a6135e32c946f089eac212fc8d8d
   - git: https://github.com/fosskers/streaming-attoparsec
     commit: 159cba262d6b78d29ff6f89086ddffd1227d548f
 
