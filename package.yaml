@@ -1,0 +1,40 @@
+name:                jp-wiki
+version:             1.0.0
+#synopsis:
+#description:
+homepage:            https://github.com/fosskers/jp-wiki
+license:             BSD3
+author:              Colin Woodbury
+maintainer:          colingw@gmail.com
+copyright:           2018 Colin Woodbury
+category:            Data
+
+extra-source-files:
+  - README.md
+
+ghc-options:
+  - -fwarn-unused-imports
+  - -fwarn-unused-binds
+  - -fwarn-name-shadowing
+  - -fwarn-unused-matches
+  - -fwarn-incomplete-patterns
+  - -fwarn-incomplete-uni-patterns
+  - -O2
+
+dependencies:
+  - base >= 4.7 && < 5
+  - aeson >= 1.1 && < 1.4
+  - kanji >= 3.3 && < 3.4
+  - microlens >= 0.4 && < 0.5
+  - microlens-aeson >= 2.3 && < 2.4
+  - shelly >= 1.7 && < 1.8
+  - streaming >= 0.1 && < 0.2
+  - streaming-bytestring >= 0.1 && < 0.2
+  - streaming-utils >= 0.1 && < 0.2
+  - text
+
+executables:
+  jp-wiki:
+    source-dirs:      src
+    main:             Main.hs
+    other-modules:    []
