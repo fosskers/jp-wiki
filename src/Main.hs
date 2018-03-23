@@ -3,6 +3,7 @@
 module Main ( main ) where
 
 import           Control.Monad ((>=>))
+import           Control.Monad.Trans.Resource
 import           Data.Aeson (Value, json)
 import qualified Data.Attoparsec.ByteString.Streaming as A
 import qualified Data.ByteString.Streaming as Q

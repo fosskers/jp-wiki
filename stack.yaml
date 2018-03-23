@@ -4,15 +4,8 @@ packages:
   - .
 
 extra-deps:
-  # - aeson-1.1.2.0
-  - attoparsec-0.13.1.0
-  - json-stream-0.4.1.5
   - kanji-3.3.0
-  - mmorph-1.0.9
-  - resourcet-1.1.11
-  - streaming-0.1.4.5
-  - streaming-bytestring-0.1.4.6
-  - streaming-commons-0.1.17
-  - streaming-utils-0.1.4.7
+  - git: https://github.com/fosskers/streaming-attoparsec
+    commit: 159cba262d6b78d29ff6f89086ddffd1227d548f
 
 allow-newer: true
